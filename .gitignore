@@ -1,0 +1,34 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models (large files — use Git LFS or DVC)
+models/*.pkl
+models/*.h5
+models/*.json
+
+# Data
+data/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
