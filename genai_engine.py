@@ -22,7 +22,7 @@ from typing import Optional
 # ─────────────────────────────────────────────
 try:
     from openai import OpenAI
-    _client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
+    # _client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
     OPENAI_AVAILABLE = bool(os.getenv("OPENAI_API_KEY"))
 except ImportError:
     OPENAI_AVAILABLE = False
